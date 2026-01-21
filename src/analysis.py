@@ -3,6 +3,7 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+
 #load the dataset
 df = pd.read_csv("detailed_ev_charging_stations.csv")
 
@@ -26,4 +27,5 @@ fig, ax = plt.subplots()
 ax.pie(sizes, labels = labels, autopct = '%1.1f%%')
 plt.show()
 
-#
+
+# Bar Plot by State
